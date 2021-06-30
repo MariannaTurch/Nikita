@@ -1,0 +1,37 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    margin-left: 120px;
+    margin-bottom: 40px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+.title1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 130%;
+    color: #000000;
+}
+.title2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #474747;
+}
+.title3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #CC4C6E;
+    cursor: pointer;
+}

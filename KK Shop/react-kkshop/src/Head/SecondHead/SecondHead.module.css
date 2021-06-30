@@ -1,0 +1,31 @@
+.secondhead{
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 85px;
+    width: 100%;
+}
+.li{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+}
+.li:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+.ul{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+
+}
