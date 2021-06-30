@@ -1,0 +1,6 @@
+.research:hover,
+.heart:hover,
+.contacts:hover,
+.cart:hover{
+    fill: red;
+}
