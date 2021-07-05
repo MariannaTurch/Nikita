@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+}
+.containerspan{
+    background-image: linear-gradient(to right, #CECECE 0%, #F1F1F1 100%), linear-gradient(to right, #CECECE 0%, #F1F1F1 100%);
+    padding: 1px;
+    margin-right: 25px;
+}
+.span{
+    max-width: 400px;
+    height: auto;
+
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.0375em;
+    color: #464646;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}

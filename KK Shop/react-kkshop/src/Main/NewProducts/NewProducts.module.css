@@ -1,0 +1,5 @@
+.newproduct_container{
+    display: flex;
+    margin-left: 120px;
+    justify-content: space-between;
+}

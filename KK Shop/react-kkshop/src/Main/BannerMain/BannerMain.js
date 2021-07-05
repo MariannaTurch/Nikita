@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './BannerMain.module.css'
 
+
 export default function BannerMain() {
     return(
         <div className={styles.banner}>

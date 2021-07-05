@@ -5,7 +5,7 @@ import img from "./logo.png";
 
 export default function SecondHead() {
     return(
-        <div  className={styles.secondhead}>
+        <div className={styles.secondhead}>
             <ul className={styles.ul}>
                 <img src={img}/>
                 <li className={styles.li}>Каталог</li>
