@@ -19,7 +19,9 @@ export default function Main() {
             <Banner2Main></Banner2Main>,
             <Advantage></Advantage>,
             <h2>Новинки</h2>,
-            
+            <h2>Акционные товары</h2>,
+            <h2>Рекомендуемые товары</h2>,
+
         </main>
 
     )

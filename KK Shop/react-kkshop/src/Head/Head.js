@@ -1,13 +1,13 @@
 import React from 'react'
 import styles from './StyleHead.module.css'
-import FirstHead from "./FirstHead/FirstHead";
-import SecondHead from "./SecondHead/SecondHead";
+import HeaderContacts from "./HeaderContacts/HeaderContacts";
+import HeaderMenu from "./HeaderMenu/HeaderMenu";
 
 export default function Header() {
     return(
         <div>
-            <FirstHead></FirstHead>
-            <SecondHead></SecondHead>
+            <HeaderContacts></HeaderContacts>
+            <HeaderMenu></HeaderMenu>
         </div>
 
     )

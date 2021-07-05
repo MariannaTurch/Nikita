@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Head/Head';
 import Main from "./Main/main";
-import img from "./Head/SecondHead/logo.png";
+import img from "./Head/HeaderMenu/logo.png";
 
 
 function App() {

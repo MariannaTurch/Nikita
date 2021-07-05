@@ -1,9 +1,9 @@
 import React from 'react'
-import styles from './SecondHead.module.css'
+import styles from './HeaderMenu.module.css'
 import IconHead from "./IconHead/IconHead";
 import img from "./logo.png";
 
-export default function SecondHead() {
+export default function HeaderMenu() {
     return(
         <div className={styles.secondhead}>
             <ul className={styles.ul}>
