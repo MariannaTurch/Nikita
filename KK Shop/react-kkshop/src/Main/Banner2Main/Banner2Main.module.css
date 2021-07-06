@@ -35,3 +35,7 @@
     color: #CC4C6E;
     cursor: pointer;
 }
+.img{
+    max-width: 784px;
+    height: auto;
+}

@@ -4,11 +4,11 @@ import ProductItem from "./ProductItem.js";
 
 export default function NewProducts(props) {
     return(
-        <div className={styles.newproduct_container}>
-            {props.newProducts.map(products => {
-            return (<ProductItem products={products}/>)
-            })
-            }
+        <div className={styles.newproducts_container}>
+        <ProductItem></ProductItem>
+        <ProductItem></ProductItem>
+        <ProductItem></ProductItem>
+        <ProductItem></ProductItem>
         </div>
     )
 }

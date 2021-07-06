@@ -1,5 +1,45 @@
-.newproduct_container{
+.newproducts_container{
     display: flex;
-    margin-left: 120px;
+    flex-wrap: wrap;
     justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.newproduct_container{
+    max-width: 377px;
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+
+}
+.newproduct_title{
+    width: 100%;
+    margin: 25px 0px 10px 25px;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+    color: #1A1A1A;
+}
+.newproduct_des{
+    margin-left: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #5C5C66;
+}
+.newproduct_price{
+    margin-left: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #1A1A1A;
 }

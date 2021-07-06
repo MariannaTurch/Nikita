@@ -1,0 +1,45 @@
+.mailing{
+    flex-direction: column;
+    display: flex;
+
+    justify-content: space-between;
+}
+.container{
+    height: 555px;
+    max-width: 1200px;
+    margin-right: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F3F3;
+}
+.title{
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 110%;
+    color: #000000;
+}
+.description{
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 130%;
+    color: #5A5A5A;
+}
+.img{
+    height: auto;
+    margin-bottom: -500px;
+    margin-left: 120px;
+}
+.email{
+
+}
+.submit{
+
+}

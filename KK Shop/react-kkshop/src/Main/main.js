@@ -4,6 +4,7 @@ import Banner2Main from "./Banner2Main/Banner2Main";
 import Advantage from "./Advantage/Advantage.js";
 import NewProducts from "./NewProducts/NewProducts.js";
 import styles from './StyleMain.module.css'
+import Mailing from "./Mailing/Mailing";
 
 
 export default function Main() {
@@ -15,12 +16,15 @@ export default function Main() {
     ]
     return(
         <main>
-            <BannerMain></BannerMain>,
-            <Banner2Main></Banner2Main>,
-            <Advantage></Advantage>,
-            <h2>Новинки</h2>,
-            <h2>Акционные товары</h2>,
-            <h2>Рекомендуемые товары</h2>,
+            <BannerMain></BannerMain>
+            <Banner2Main></Banner2Main>
+            <Advantage></Advantage>
+            <h2>Новинки</h2>
+            <NewProducts></NewProducts>
+            <h2>Акционные товары</h2>
+
+            <h2>Рекомендуемые товары</h2>
+            <Mailing></Mailing>
 
         </main>
 
