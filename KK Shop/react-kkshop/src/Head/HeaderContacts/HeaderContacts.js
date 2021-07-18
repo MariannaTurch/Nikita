@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './HeaderContacts.module.css'
+import ChangeCity from "./ChangeCity.js";
 
 export default function HeaderContacts() {
    return(
@@ -9,6 +10,7 @@ export default function HeaderContacts() {
                   <path d="M4.99984 5.47534L9.0065 1.46866L8.0645 0.52533L4.99984 3.592L1.93583 0.52533L0.993164 1.468L4.99984 5.47534Z" fill="#F7B0C3"/>
               </svg>
           </li>
+           <ChangeCity></ChangeCity>
           <li className={styles.phonenumber}>8 495 259 25 00</li>
        </ul>
    )
